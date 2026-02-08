@@ -1,5 +1,9 @@
+---
+import '../styles/global.css'
+import Footer from '../components/Footer.astro'
+---
 <!doctype html>
-<html lang="en">
+<html lang="en" class="m-0 w-full h-full">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
@@ -8,16 +12,10 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro Basics</title>
 	</head>
-	<body>
-		<slot />
+	<body class="m-0 max-w-xl min-h-screen font-mono mx-auto flex flex-col pt-16 antialiased bg-global-bg text-global-text">
+		<main id="main">
+			<slot />
+		</main>
+		<Footer />
 	</body>
 </html>
-
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>

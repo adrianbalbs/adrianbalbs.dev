@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --color-global-bg: oklch(0.3239 0.0153 240.42);
+    --color-global-text: oklch(0.8299 0.0405 86.05);
+    --color-everforest-yellow: oklch(0.8081 0.0863 83.7);
+    --color-everforest-red: oklch(0.7086 0.1285 19.62);
+    --color-everforest-purple: oklch(0.7501 0.0818 349.18);
+    --color-everforest-blue: oklch(0.7487 0.0631 185.5);
+}
