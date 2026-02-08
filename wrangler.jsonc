@@ -15,8 +15,8 @@
 	},
 	"routes": [
 		{
-			"pattern": "adrnb.dev/*",
-			"zone_name": "adrnb.dev"
+			"pattern": "adrnb.dev",
+			"custom_domain": true
 		}
 	]
 }
